@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap">
+    <script src="https://kit.fontawesome.com/dc4701f61d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="left all">ResourcesHub</div>
+        <div class="right">
+            <ul class="menu">
+                <li><a class="all Home" href="index.html">Home</a></li>
+                <li><a class="all About" href="about.html">About</a></li>
+                <li><a class="all Contacts" href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section with Video Background -->
+    <section class="contact-section">
+        <video autoplay muted loop id="background-video">
+            <source src="coverr-land-covered-in-snow-8067-1080p.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="center">Contact Us</h1>
+            <p class="new">We're here to help. Reach out to us for any questions or support you need.</p>
+            <a href="#contact-form" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Contact Form and Information Section -->
+    <section class="section11" id="contact-form">
+        <div class="leftdiv">
+            <div class="top">
+                <h1>Get In Touch</h1>
+                <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            <div class="next">
+                <form action="submit">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter Your Message" required></textarea>
+                    <button class="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="rightdiv">
+            <h2>Contact Information</h2>
+            <p>You can also reach us using the following contact information:</p>
+            <div class="contact-details">
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>thkaurankeshkumar958@gmail.com</p>
+                </div>
+                <div class="number">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 (916) 278-8525</p>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>C101 BH3, Lovely Professional University, 144411</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="leftfooter">
+            <p>&copy; 2024 ResourcesHub. All rights reserved.</p>
+        </div>
+        <div class="rightfooter">
+            <a href="#" class="terms">Terms of Service</a>
+            <a href="#" class="privacy">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+
+</html>
